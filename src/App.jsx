@@ -17,7 +17,7 @@ function App() {
       url: 'https://youtube-search-results.p.rapidapi.com/youtube-search/',
       params: {q: txt},
       headers: {
-        'X-RapidAPI-Key': 'YOUR_RAPID_API',
+        'X-RapidAPI-Key': 'YOUR_RAPID_API_KEY',
         'X-RapidAPI-Host': 'youtube-search-results.p.rapidapi.com'
       }
     };
